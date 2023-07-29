@@ -1,0 +1,121 @@
+.header {
+    gap: 0;
+}
+.header__top_block{
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.header__top_btn{
+     width: 20px;
+     height: 20px;
+
+       background-image: url(../../img/top.svg);
+       background-position:center ;
+       background-repeat: no-repeat;;
+}
+.header__top {
+    padding: 15px 0;
+    background-color: #0D0C22;
+    color: #FFF;
+text-align: center;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.9px; /* 130% */
+}
+.header__top_link {
+color: #EA4C89;
+}
+.header__container {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    width: 76px;
+    height: 30px;
+}
+.header__nav {
+}
+.nav {
+}
+.header__block{
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+}
+.nav__list {
+    gap: 32px;
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+}
+.nav__item {
+}
+.nav__llink {
+    color: #6E6D7A;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.header__btns {
+    gap: 20px;
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.beader__btn {
+        width: 18px;
+        height: 18px;
+       background-image: url(../../img/search.svg);
+       background-position: center ;
+       background-repeat: no-repeat;;
+}
+.beader__singin {
+    color: #6E6D7A;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.beader__singup {
+
+    padding: 8px 16px;
+    background-color:#EA4C89;
+    border-radius: 8px;
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.header__menu{
+     width: 20px ;
+     height: 20px;
+    display: none;
+       background-image: url(../../img/menu.png);
+    background-color:transparent;
+       background-position:center ;
+       background-repeat: no-repeat;;
+}
+@media screen and (max-width:843px) {
+
+    .header__menu{
+       display: block;
+   } 
+
+   .nav__list{
+    display: none;
+   }
+   .header__btns{
+    display: none;
+   }
+
+}
+@media screen and (max-width:733px) {
+    .header__top{
+        font-size: 8px;
+    }
+}
